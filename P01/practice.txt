@@ -1,0 +1,14 @@
+Practical 1: Project Folder and Terminal Navigation
+
+Name: Ayush Kumar
+Subject: Programming for Web Development - I
+
+In this practical, I learned how to create
+folders and files using terminal commands.
+
+Commands Used:
+1. pwd - Shows the current directory.
+2. ls - Lists files and folders.
+3. mkdir - Creates a new folder.
+4. cd - Changes the directory.
+5. touch - Creates a file.
