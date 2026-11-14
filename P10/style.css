@@ -1,0 +1,103 @@
+
+/* Basic page styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    color: #222;
+}
+
+/* Header */
+header {
+    background-color: #2563eb;
+    color: white;
+    padding: 20px;
+}
+
+/* Header using Flexbox */
+.header-container {
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.header-container h1 {
+    margin: 0;
+}
+
+/* Navigation */
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Main content */
+main {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+section {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+/* Footer */
+footer {
+    background-color: #1e293b;
+    color: white;
+    padding: 20px;
+}
+
+/* Footer using Flexbox */
+.footer-container {
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Mobile responsive design */
+@media (max-width: 600px) {
+    .header-container,
+    .footer-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav,
+    .footer-links {
+        justify-content: center;
+    }
+}
