@@ -1,22 +1,30 @@
-# My Portfolio Project
+# P02 - Portfolio Repository and Initial Commit
 
-Name: Ayush Kumar
+**Name:** Ayush Kumar  
+**Subject:** Programming for Web Development - I Laboratory
 
-Subject: Programming for Web Development - I
-
-## About This Project
-
-This is my first portfolio project.
-I am learning how to use Git and GitHub
-to manage my project files.
+## Aim
+To learn how to create a Git repository, save files with a commit and upload a project to GitHub.
 
 ## Tools Used
+VS Code, Git, GitHub and Terminal.
 
-- VS Code
-- Git
-- GitHub
+## Commands to Understand
+```bash
+git init
+git add .
+git commit -m "Initial commit"
+git branch -M main
+git remote add origin <repository-url>
+git push -u origin main
+```
+Replace `<repository-url>` with the URL of the repository. These are the standard commands for a new local repository; they are provided here as a learning reference, not as a claim that every command was run exactly this way.
 
 ## What I Learned
+- `git init` starts version tracking in a local folder.
+- `git add` stages changes.
+- `git commit` saves a checkpoint.
+- `git push` uploads commits to GitHub.
 
-I learned how to create a Git repository,
-add files, make commits and push code to GitHub.
+## Result
+My web-development lab work is tracked in a GitHub repository with commit history.
