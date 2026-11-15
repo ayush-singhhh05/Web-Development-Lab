@@ -26,7 +26,7 @@ This repository contains my 13 lab practicals on terminal basics, Git, GitHub, s
 | P13 | Choosing between Flexbox and Grid | [P13](P13/) |
 
 ## How to View the Practicals
-- For **P01–P04**, read the README inside each folder. The Git history and [P03 pull request](../../pull/1) show repository workflow activity.
+- For **P01–P04**, read the README inside each folder. The Git history and [P03 pull request](https://github.com/ayush-singhhh05/Web-Development-Lab/pull/1) show repository workflow activity.
 - For **P05–P13**, open each folder's `index.html` in a web browser.
 - Keep each `style.css` file alongside its `index.html`, where provided.
 
